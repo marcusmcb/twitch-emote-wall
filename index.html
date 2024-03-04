@@ -38,7 +38,7 @@
 	</head>
 	<body>
 		<script>
-			const socket = io('http://127.0.0.1:5000')
+			const socket = io('https://mcb-chatbot.herokuapp.com/')
 
 			socket.on('chat-emote', function (data) {
 				for (let emoteId in data) {
